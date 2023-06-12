@@ -50,7 +50,7 @@
 #include "../main/html_struct.h"
 
 #define get_name(x) #x
-#include "../termo/owb.h"
+#include "../dkse_termo/owb.h"
 FW_termo_t termo[MAX_DEVICES];
 FW_termo_n trm[MAX_DEVICES];
 int num_devices;

@@ -37,7 +37,7 @@
 #ifndef OWB_GPIO_H
 #define OWB_GPIO_H
 
-#include "owb.h"
+#include "../dkse_termo/owb.h"
 
 #ifdef __cplusplus
 extern "C" {

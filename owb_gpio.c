@@ -26,7 +26,7 @@
 /**
  * @file
  */
-#include "config_pj.h"
+#include "../main/config_pj.h"
 #if  MAIN_APP_OWB_H_ == 1
 
 #include <stddef.h>

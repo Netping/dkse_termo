@@ -55,11 +55,11 @@ sample code bearing this copyright.
 // Branding Policy.
 //--------------------------------------------------------------------------
 */
-#include "config_pj.h"
+#include "../main/config_pj.h"
 
 #if  MAIN_APP_OWB_H_ == 1
 
-#include "owb.h"
+#include "../dkse_termo/owb.h"
 
 #include "driver/rmt.h"
 #include "driver/gpio.h"
@@ -438,7 +438,7 @@ static owb_status _init(owb_rmt_driver_info *info, gpio_num_t gpio_num,
     // attach GPIO to previous pin
     if (gpio_num < 32)
     {
-        GPIO.enable_w1ts = (0x1 << gpio_num);
+        GPIO.enable_w1ts = (int)(0x1 << gpio_num);
     }
     else
     {

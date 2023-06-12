@@ -30,7 +30,7 @@
  * cached value becoming inconsistent with the hardware value, so care must be taken.
  *
  */
-#include "config_pj.h"
+#include "../main/config_pj.h"
 
 #if  MAIN_APP_OWB_H_ == 1
 
