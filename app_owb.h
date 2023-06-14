@@ -21,8 +21,7 @@
 
 #include "owb.h"
 
-#define pin_1w_out (32)
-#define pin_1w_in (33)
+
 #define GPIO_DS18B20_0       pin_1w_out
 #define MAX_DEVICES          max_sensor
 
